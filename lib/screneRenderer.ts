@@ -4,7 +4,7 @@ import * as orbitControlsCreator from 'three-orbit-controls'
 /*
  * Allow the camera to orbit around a target
  */
-const OrbitControls: typeof THREE.OrbitControls = orbitControlsCreator(THREE)
+const OrbitControls: typeof THREE.OrbitControls = orbitControlsCreator.default(THREE)
 
 /**
  * Creates orbit controller

@@ -1,4 +1,4 @@
-import * as FastDataView                                from 'fast-dataview'
+import FastDataView from 'fast-dataview'
 import * as MultiArrayView                              from 'multi-array-view'
 import * as structs                                     from '../const/structs'
 import { MAX_SRCBONES, AXLES_NUM, ANIM_VALUE, VERSION } from '../const/constants'

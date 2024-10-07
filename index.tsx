@@ -1,6 +1,12 @@
 import * as React    from 'react'
-import * as ReactDOM from 'react-dom'
-import { App }       from './ui/App'
+import { createRoot } from 'react-dom/client'
+import { App } from './ui/App'
 
 // Render the app
-ReactDOM.render(<App />, document.getElementById('root'))
+
+const rootElement = document.getElementById('root');
+if (rootElement) {
+  createRoot(rootElement).render(<App />);
+} else {
+  console.error('Root element not found');
+}
